@@ -11,7 +11,7 @@ mouseHitbox = null;
 setup = async function() {
   createCanvas(960, 540);
   await (logoFont = loadFont("assets/bluunext-bold.ttf"));
-  logoHitbox = new Hitbox("CENTER", "rectangle", width / 2, height / 2, 450, 80);
+  logoHitbox = new Hitbox("CENTER", "rectangle", width / 2, height / 2, 585, 80);
   return mouseHitbox = new Hitbox("CENTER", "rectangle", width / 2, height / 2, 1, 1);
 };
 
@@ -23,7 +23,7 @@ draw = function() {
   textFont(logoFont);
   textSize(100);
   textAlign(CENTER, MIDDLE);
-  text("voidmath", width / 2, height / 2);
+  text("voidlearning", width / 2, height / 2);
   if (checkCollision(logoHitbox, mouseHitbox)) {
     return cursor(HAND);
   } else {

@@ -1,0 +1,9 @@
+{
+  "coffeesense.ignoredTypescriptErrorCodes": [],
+  "coffeesense.ignoreProjectWarning": false,
+  "coffeesense.useWorkspaceDependencies": false,
+  "coffeesense.trace.server": "off",
+  "coffeesense.dev.lspPath": null,
+  "coffeesense.dev.lspPort": null,
+  "coffeesense.dev.logLevel": "INFO"
+}
